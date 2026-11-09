@@ -2,6 +2,9 @@
 
 Notionのアナログゲーム管理表から、公開用のシナリオ一覧を作りました。
 
+公開ページ: https://happyzawa.github.io/shikazawa-trpg/
+リポジトリ: https://github.com/happyzawa/shikazawa-trpg
+
 - 作品名・読み仮名・略称で検索
 - 通過済／既知／すぐ回せるシナリオ／所持シナリオで絞り込み
 - システム別、通過予定・未知・既知かも・要確認で絞り込み
@@ -17,14 +20,14 @@ Notionのアナログゲーム管理表から、公開用のシナリオ一覧�
 2. GitHubの **Settings → Pages → Build and deployment → Source** で **GitHub Actions** を選ぶ。
 3. **Actions → Publish scenario list → Run workflow** を実行する。
 
-付属ワークフローは `index.html` と `.nojekyll` だけをPagesへ配信します。
+付属ワークフローは `index.html`・`.nojekyll`・ブックマーク用アイコンをPagesへ配信します。
 公開先はGitHubが返すPages URLを使ってください。
 
 `index.html` はデータを内蔵しています。ダウンロードして直接開いても一覧を確認できます。
 
 ## 掲載データ
 
-2026-11-10時点。262シナリオ。名前のない行と、システムが「ボドゲ」のみの行は除外しています。
+2026-11-10時点。263シナリオ。名前のない行と、システムが「ボドゲ」のみの行は除外しています。
 
 公開フィールドは、作品名・読み仮名/略称・システム・形式・公開状態・すぐ回せるか・所持しているか・作品URLだけです。
 秘匿HO、役職、日程、自由メモ、感想タグ、KP回数、Notion内部リンク、探索者データ、電子書庫データは同梱していません。
