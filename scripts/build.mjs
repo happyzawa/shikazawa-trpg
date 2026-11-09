@@ -42,10 +42,10 @@ export function documentHtml(template, data) {
 }
 
 if (process.argv[1] && new URL(process.argv[1], 'file:').href === import.meta.url) {
-  const [sourcePath, date = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date())] = process.argv.slice(2);
+  const [sourcePath, date = new Intl.DateTimeFormat('sv-SE', { timeZone: 'Asia/Tokyo' }).format(new Date()), syncedAt] = process.argv.slice(2);
   const current = JSON.parse(await readFile(new URL('data/scenarios.json', ROOT), 'utf8'));
   const data = sourcePath ? {
-    owner: 'しかざわ', updatedAt: date,
+    owner: 'しかざわ', updatedAt: date, dataSyncedAt: syncedAt || date, pageUpdatedAt: new Date().toISOString(),
     scenarios: JSON.parse(await readFile(sourcePath, 'utf8')).map(row => publicScenario(row, date)).filter(Boolean)
       .sort((a, b) => (a.reading || a.title).localeCompare(b.reading || b.title, 'ja'))
   } : current;
