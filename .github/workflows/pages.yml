@@ -26,10 +26,11 @@ jobs:
       - name: Prepare public files
         run: |
           mkdir -p public
-          cp index.html .nojekyll public/
+          cp index.html .nojekyll favicon.svg favicon-32.png favicon.ico apple-touch-icon.png public/
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
