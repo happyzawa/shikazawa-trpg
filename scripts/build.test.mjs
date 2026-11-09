@@ -23,7 +23,7 @@ test('explicit room-ready tag allows running; do-not-run wins', () => {
 });
 test('public allowlist removes private properties and internal links', () => {
   const result = publicScenario(row({ 自由メモ: '秘密', '通過時HO/役職': '["犯人"]', 個人的感想タグ: '["秘密タグ"]', 'userDefined:URL': 'https://example.notion.site/private' }), day);
-  assert.deepEqual(Object.keys(result).sort(), ['title', 'systems', 'formats', 'reading', 'knowledge', 'canRun', 'url'].sort());
+  assert.deepEqual(Object.keys(result).sort(), ['title', 'systems', 'formats', 'reading', 'knowledge', 'canRun', 'owned', 'url'].sort());
   assert.ok(!JSON.stringify(result).includes('秘密')); assert.equal(result.url, '');
   assert.equal(publicScenario(row({ 'userDefined:URL': 'javascript:alert(1)' }), day).url, '');
 });
@@ -35,4 +35,12 @@ test('embedded data cannot terminate its script element', () => {
   const html = documentHtml('<script id="scenario-data" type="application/json">{}</script>', { title: '</script><script>alert(1)</script>' });
   assert.equal((html.match(/<script/g) || []).length, 1);
   assert.ok(html.includes('\\u003c/script>'));
+});
+
+test('ownership comes only from the explicit owned status', () => {
+  assert.equal(publicScenario(row({ 所持状況: '所持' }), day).owned, true);
+  assert.equal(publicScenario(row({ 所持状況: null }), day).owned, false);
+  assert.equal(publicScenario(row({ 所持状況: '未所持' }), day).owned, false);
+  const ready = publicScenario(row({ 個人的感想タグ: '["部屋があるのですぐ回せます"]' }), day);
+  assert.equal(ready.canRun, true); assert.equal(ready.owned, false);
 });

@@ -33,7 +33,7 @@ export function publicScenario(row, today) {
   else if (status.includes('未知')) knowledge = 'unknown';
   const canRun = tags.includes('部屋があるのですぐ回せます') && !tags.includes('回さない');
   // Explicit allowlist: never spread a private row into a public record.
-  return { title, systems, formats: list(row['形式']), reading: nonempty(row['読み仮名・略称']), knowledge, canRun, url: safeUrl(row['userDefined:URL']) };
+  return { title, systems, formats: list(row['形式']), reading: nonempty(row['読み仮名・略称']), knowledge, canRun, owned: row['所持状況'] === '所持', url: safeUrl(row['userDefined:URL']) };
 }
 
 export function documentHtml(template, data) {
