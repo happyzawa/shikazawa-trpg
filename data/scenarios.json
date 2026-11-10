@@ -1,8 +1,8 @@
 {
   "owner": "しかざわ",
-  "updatedAt": "2026-11-10",
-  "dataSyncedAt": "2026-11-09T16:28:20.382Z",
-  "pageUpdatedAt": "2026-11-09T21:55:47.268Z",
+  "updatedAt": "2026-11-11",
+  "dataSyncedAt": "2026-11-10T18:38:44.842Z",
+  "pageUpdatedAt": "2026-11-10T18:38:44.842Z",
   "scenarios": [
     {
       "title": "○○はそんなこと言わない！？",
@@ -19,7 +19,63 @@
       "url": ""
     },
     {
-      "title": "████が消えた夏",
+      "title": "<b>Missing Smooch</b>",
+      "systems": [
+        "CoC"
+      ],
+      "formats": [
+        "タイマン"
+      ],
+      "reading": "<b>Missing Smooch</b>",
+      "knowledge": "known",
+      "canRun": false,
+      "owned": true,
+      "url": ""
+    },
+    {
+      "title": "<b>MOON LANDING</b>",
+      "systems": [
+        "CoC"
+      ],
+      "formats": [
+        "4PL"
+      ],
+      "reading": "<b>MOON LANDING</b>",
+      "knowledge": "unknown",
+      "canRun": false,
+      "owned": true,
+      "url": ""
+    },
+    {
+      "title": "<b>THE TRUE PARTY</b>",
+      "systems": [
+        "CoC"
+      ],
+      "formats": [
+        "指定なし"
+      ],
+      "reading": "<b>THE TRUE PARTY/トゥルパ</b>",
+      "knowledge": "known",
+      "canRun": false,
+      "owned": true,
+      "url": ""
+    },
+    {
+      "title": "<p>\n Empty∅Set\n</p>",
+      "systems": [
+        "CoC"
+      ],
+      "formats": [
+        "2PL"
+      ],
+      "reading": "<p>\n EmptySet\n</p>",
+      "knowledge": "uncertain",
+      "canRun": false,
+      "owned": true,
+      "url": ""
+    },
+    {
+      "title": "<b>████</b>が消えた夏",
       "systems": [
         "CoC"
       ],
@@ -30,7 +86,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://talto.cc/projects/ci34dte3OHn5hH7JERb_Q"
+      "url": ""
     },
     {
       "title": "■■のすゝめ",
@@ -44,7 +100,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=10365611"
+      "url": ""
     },
     {
       "title": "4ぶんの1",
@@ -59,7 +115,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/8139390"
+      "url": ""
     },
     {
       "title": "666号室のあくま",
@@ -73,7 +129,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
       "title": "AM2:30と一知半解",
@@ -85,9 +141,9 @@
       ],
       "reading": "AMにじはんといっちはんかい/にじはん",
       "knowledge": "known",
-      "canRun": false,
+      "canRun": true,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/4533397"
+      "url": ""
     },
     {
       "title": "Apocalypswitch",
@@ -101,7 +157,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
       "title": "Dreamer",
@@ -115,24 +171,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/5157294"
-    },
-    {
-      "title": "Empty∅Set",
-      "systems": [
-        "CoC"
-      ],
-      "formats": [
-        "2PL"
-      ],
-      "reading": "EmptySet",
-      "knowledge": "uncertain",
-      "canRun": false,
-      "owned": true,
       "url": ""
     },
     {
-      "title": "FRaTRlCiDE",
+      "title": "<b>FRaTRlCiDE</b>",
       "systems": [
         "CoC"
       ],
@@ -143,7 +185,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2880146"
+      "url": ""
     },
     {
       "title": "Good  morning ALL",
@@ -157,10 +199,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2976456"
+      "url": ""
     },
     {
-      "title": "Holiday's Midnight",
+      "title": "<b>Holiday's Midnight</b>",
       "systems": [
         "CoC"
       ],
@@ -171,10 +213,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://cpdtrpg.booth.pm/items/4942032"
+      "url": ""
     },
     {
-      "title": "Honey*2 Lover",
+      "title": "<b>Honey\\*2 Lover</b>",
       "systems": [
         "CoC"
       ],
@@ -185,7 +227,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://stella-night.booth.pm/items/5935404"
+      "url": ""
     },
     {
       "title": "Junos Liebhaber",
@@ -199,10 +241,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
-      "title": "KPCの隠し子が現れたんだが？",
+      "title": "<b>KPCの隠し子が現れたんだが？</b>",
       "systems": [
         "CoC"
       ],
@@ -213,24 +255,24 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5149046"
+      "url": ""
     },
     {
-      "title": "Living\n  under one roof",
+      "title": "Living<br />  under one roof",
       "systems": [
         "CoC"
       ],
       "formats": [
         "タイマン"
       ],
-      "reading": "Living\n  under one roof",
+      "reading": "Living<br />  under one roof",
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://talto.cc/projects/wxjky_t5hEK2YCILYuiII"
+      "url": ""
     },
     {
-      "title": "MAIDS AND\n  WEAPONS",
+      "title": "MAIDS AND<br />  WEAPONS",
       "systems": [
         "CoC"
       ],
@@ -239,10 +281,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3730825"
+      "url": ""
     },
     {
-      "title": "Make omelet's Escape！",
+      "title": "<b>Make omelet's Escape！</b>",
       "systems": [
         "CoC"
       ],
@@ -253,10 +295,10 @@
       "knowledge": "planned",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/6900773"
+      "url": ""
     },
     {
-      "title": "mimic heart",
+      "title": "<b>mimic heart</b>",
       "systems": [
         "CoC"
       ],
@@ -267,35 +309,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://bbc0623.booth.pm/items/4015618"
-    },
-    {
-      "title": "Missing Smooch",
-      "systems": [
-        "CoC"
-      ],
-      "formats": [
-        "タイマン"
-      ],
-      "reading": "Missing Smooch",
-      "knowledge": "known",
-      "canRun": false,
-      "owned": true,
-      "url": "https://booth.pm/ja/items/8638346"
-    },
-    {
-      "title": "MOON LANDING",
-      "systems": [
-        "CoC"
-      ],
-      "formats": [
-        "4PL"
-      ],
-      "reading": "MOON LANDING",
-      "knowledge": "unknown",
-      "canRun": false,
-      "owned": true,
-      "url": "https://tomoshibi-mny.booth.pm/items/7504039"
+      "url": ""
     },
     {
       "title": "nap",
@@ -307,10 +321,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5821147"
+      "url": ""
     },
     {
-      "title": "NapFrappe",
+      "title": "<b>NapFrappe</b>",
       "systems": [
         "CoC"
       ],
@@ -321,10 +335,10 @@
       "knowledge": "planned",
       "canRun": false,
       "owned": true,
-      "url": "https://marudai.booth.pm/items/1758940"
+      "url": ""
     },
     {
-      "title": "NOTHINGFOUR",
+      "title": "<b>NOTHINGFOUR</b>",
       "systems": [
         "CoC"
       ],
@@ -336,10 +350,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/8478281"
+      "url": ""
     },
     {
-      "title": "OTHEllO - the Dee of Nara -",
+      "title": "<b>OTHEllO - the Dee of Nara -</b>",
       "systems": [
         "CoC"
       ],
@@ -351,10 +365,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6857132"
+      "url": ""
     },
     {
-      "title": "Please, not right now！",
+      "title": "<b>Please, not right now！</b>",
       "systems": [
         "CoC"
       ],
@@ -365,7 +379,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://h3-po4-trpg.booth.pm/items/8145363"
+      "url": ""
     },
     {
       "title": "REGlCiDE",
@@ -379,7 +393,7 @@
       "knowledge": "unconfirmed",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/3384774"
+      "url": ""
     },
     {
       "title": "REPLACE  STEP",
@@ -393,7 +407,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/4658549"
+      "url": ""
     },
     {
       "title": "ROOMCERF",
@@ -407,10 +421,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6273279"
+      "url": ""
     },
     {
-      "title": "SORORiZE",
+      "title": "<b>SORORiZE</b>",
       "systems": [
         "CoC"
       ],
@@ -419,10 +433,10 @@
       "knowledge": "unconfirmed",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/8394293"
+      "url": ""
     },
     {
-      "title": "Sweet Malicious Sweetroom",
+      "title": "<b>Sweet Malicious Sweetroom</b>",
       "systems": [
         "CoC"
       ],
@@ -433,24 +447,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://sgl08krtr.booth.pm/items/2169097"
+      "url": ""
     },
     {
-      "title": "THE TRUE PARTY",
-      "systems": [
-        "CoC"
-      ],
-      "formats": [
-        "指定なし"
-      ],
-      "reading": "THE TRUE PARTY/トゥルパ",
-      "knowledge": "known",
-      "canRun": false,
-      "owned": true,
-      "url": "https://somu.booth.pm/items/4067128"
-    },
-    {
-      "title": "VIVID BIT BEAST",
+      "title": "<b>VIVID BIT BEAST</b>",
       "systems": [
         "CoC"
       ],
@@ -459,7 +459,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://hiso-hiso.booth.pm/items/4943779"
+      "url": ""
     },
     {
       "title": "VOID",
@@ -473,10 +473,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2907962"
+      "url": ""
     },
     {
-      "title": "愛して！！",
+      "title": "<b>愛して！！</b>",
       "systems": [
         "CoC"
       ],
@@ -485,7 +485,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=15224109"
+      "url": ""
     },
     {
       "title": "愛罠蜂",
@@ -499,10 +499,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2862362"
+      "url": ""
     },
     {
-      "title": "青がすむ世界",
+      "title": "<b>青がすむ世界</b>",
       "systems": [
         "CoC"
       ],
@@ -513,7 +513,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/5386056"
+      "url": ""
     },
     {
       "title": "悪霊の家",
@@ -537,10 +537,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://lune-star.booth.pm/items/5737450"
+      "url": ""
     },
     {
-      "title": "明日ハ私ノ風ガ吹ク",
+      "title": "<b>明日ハ私ノ風ガ吹ク</b>",
       "systems": [
         "CoC"
       ],
@@ -549,10 +549,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://kimeall.booth.pm/items/1994250"
+      "url": ""
     },
     {
-      "title": "あしの下でねむる",
+      "title": "<b>あしの下でねむる</b>",
       "systems": [
         "CoC"
       ],
@@ -561,10 +561,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://1numa1.booth.pm/items/2794208"
+      "url": ""
     },
     {
-      "title": "汗だくKPCと壊れたエアコン",
+      "title": "<b>汗だくKPCと壊れたエアコン</b>",
       "systems": [
         "CoC"
       ],
@@ -573,7 +573,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://tatuhara.booth.pm/items/5016126"
+      "url": ""
     },
     {
       "title": "あたたかなとげ",
@@ -601,7 +601,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/3900315"
+      "url": ""
     },
     {
       "title": "あなたに喰まれる夢を見る",
@@ -615,10 +615,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://bibito-no-neko.booth.pm/items/8358099"
+      "url": ""
     },
     {
-      "title": "亜に洞洞と",
+      "title": "<b>亜に洞洞と</b>",
       "systems": [
         "CoC"
       ],
@@ -629,7 +629,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://amabuki-trpg.booth.pm/items/5355350"
+      "url": ""
     },
     {
       "title": "あの子は地獄に落ちました？",
@@ -641,10 +641,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5579084"
+      "url": ""
     },
     {
-      "title": "甘音が聴こえる",
+      "title": "<b>甘音が聴こえる</b>",
       "systems": [
         "CoC"
       ],
@@ -655,10 +655,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4196796"
+      "url": ""
     },
     {
-      "title": "あらざるまちのゆめ",
+      "title": "<b>あらざるまちのゆめ</b>",
       "systems": [
         "CoC"
       ],
@@ -667,7 +667,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5935392"
+      "url": ""
     },
     {
       "title": "アルコールに朝を飼う",
@@ -679,10 +679,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
-      "title": "ある日はハチミツ、ある日はタマネギ",
+      "title": "<b>ある日はハチミツ、ある日はタマネギ</b>",
       "systems": [
         "CoC"
       ],
@@ -691,7 +691,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/5260776"
+      "url": ""
     },
     {
       "title": "いい子にしてるか黙ってろ",
@@ -705,10 +705,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://rutsuboya10moe.booth.pm/items/4930191"
+      "url": ""
     },
     {
-      "title": "家の中を歩いてみよう。",
+      "title": "<b>家の中を歩いてみよう。</b>",
       "systems": [
         "CoC"
       ],
@@ -717,10 +717,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://akitako.booth.pm/items/666251"
+      "url": ""
     },
     {
-      "title": "遺海址紀",
+      "title": "<b>遺海址紀</b>",
       "systems": [
         "CoC"
       ],
@@ -732,10 +732,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4934120"
+      "url": ""
     },
     {
-      "title": "イゴーロナクにディープキスするシナリオ",
+      "title": "<b>イゴーロナクにディープキスするシナリオ</b>",
       "systems": [
         "CoC"
       ],
@@ -746,7 +746,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6069988"
+      "url": ""
     },
     {
       "title": "いたみあいっこ",
@@ -760,7 +760,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6708691"
+      "url": ""
     },
     {
       "title": "偽りを探せ！",
@@ -772,7 +772,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=6088140"
+      "url": ""
     },
     {
       "title": "いのち、を淘汰してください。",
@@ -787,7 +787,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2027654"
+      "url": ""
     },
     {
       "title": "「芋虫。」",
@@ -802,7 +802,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/1486466"
+      "url": ""
     },
     {
       "title": "イリガミ",
@@ -814,7 +814,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=8352941"
+      "url": ""
     },
     {
       "title": "鰯と柊",
@@ -828,10 +828,10 @@
       "knowledge": "played",
       "canRun": true,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3403696"
+      "url": ""
     },
     {
-      "title": "うずぶちの子還り",
+      "title": "<b>うずぶちの子還り</b>",
       "systems": [
         "CoC"
       ],
@@ -840,7 +840,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://somu.booth.pm/items/5697903"
+      "url": ""
     },
     {
       "title": "宇宙船ニル・ノート号の残響",
@@ -854,10 +854,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2316692"
+      "url": ""
     },
     {
-      "title": "空ろな本棚のきみへ",
+      "title": "<b>空ろな本棚のきみへ</b>",
       "systems": [
         "CoC"
       ],
@@ -868,7 +868,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5516888"
+      "url": ""
     },
     {
       "title": "海原に嫁す",
@@ -882,7 +882,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3440642"
+      "url": ""
     },
     {
       "title": "うまずめのはら",
@@ -896,7 +896,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2337267"
+      "url": ""
     },
     {
       "title": "海も枯れるまで",
@@ -910,7 +910,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/1712065"
+      "url": ""
     },
     {
       "title": "麗しくしにたい",
@@ -922,7 +922,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
       "title": "え！？KPCが自分のこと教師だと思っているからKPCの授業を受けないと出られない部屋だって！？",
@@ -936,7 +936,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6662860"
+      "url": ""
     },
     {
       "title": "エイダ",
@@ -950,10 +950,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2722251"
+      "url": ""
     },
     {
-      "title": "え！？1d100匹のchoice[××,犬,××]＞犬が行方不明！？",
+      "title": "<b>え！？1d100匹のchoice\\[××,犬,××\\]＞犬が行方不明！？</b>",
       "systems": [
         "CoC"
       ],
@@ -966,10 +966,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/7205934"
+      "url": ""
     },
     {
-      "title": "エスカバージの心酔",
+      "title": "<b>エスカバージの心酔</b>",
       "systems": [
         "CoC"
       ],
@@ -978,7 +978,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://nata3.booth.pm/items/2273420"
+      "url": ""
     },
     {
       "title": "エターナルオウス",
@@ -992,7 +992,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3968381"
+      "url": ""
     },
     {
       "title": "えっ！壺を買うだけで幸せになれるんですか！？",
@@ -1006,10 +1006,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/958529"
+      "url": ""
     },
     {
-      "title": "笑まふ男",
+      "title": "<b>笑まふ男</b>",
       "systems": [
         "CoC"
       ],
@@ -1018,10 +1018,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6194378"
+      "url": ""
     },
     {
-      "title": "おいしく食べよう",
+      "title": "<b>おいしく食べよう</b>",
       "systems": [
         "CoC"
       ],
@@ -1033,7 +1033,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6047514"
+      "url": ""
     },
     {
       "title": "お菓子王を決めろ！　第n回菓子盆選手権",
@@ -1059,10 +1059,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://www.pixiv.net/novel/show.php?id=15557024"
+      "url": ""
     },
     {
-      "title": "お、捨てKPCだ。可哀想に…",
+      "title": "<b>お、捨てKPCだ。可哀想に…</b>",
       "systems": [
         "CoC"
       ],
@@ -1071,7 +1071,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://tatuhara.booth.pm/items/3083345"
+      "url": ""
     },
     {
       "title": "同じ言葉で話す君へ",
@@ -1085,7 +1085,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/4926238"
+      "url": ""
     },
     {
       "title": "同じ空には昇れない。",
@@ -1099,7 +1099,7 @@
       "knowledge": "unconfirmed",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/5202796"
+      "url": ""
     },
     {
       "title": "おばけのまち",
@@ -1111,7 +1111,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/4016299"
+      "url": ""
     },
     {
       "title": "おばけゆうびん",
@@ -1123,7 +1123,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://talto.cc/projects/Qh3MS-RAq-sDbIjVA-JCt"
+      "url": ""
     },
     {
       "title": "オハナシ",
@@ -1135,7 +1135,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=6267190"
+      "url": ""
     },
     {
       "title": "お風呂の温度は1d100℃",
@@ -1147,7 +1147,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5337980"
+      "url": ""
     },
     {
       "title": "お前がホストなの！？",
@@ -1161,7 +1161,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5200362"
+      "url": ""
     },
     {
       "title": "ガシャン！",
@@ -1185,7 +1185,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/216901"
+      "url": ""
     },
     {
       "title": "カタシロ",
@@ -1200,10 +1200,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2274429"
+      "url": ""
     },
     {
-      "title": "肩幅で語れ",
+      "title": "<b>肩幅で語れ</b>",
       "systems": [
         "CoC"
       ],
@@ -1214,7 +1214,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4751118"
+      "url": ""
     },
     {
       "title": "がべいにきす",
@@ -1228,7 +1228,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
       "title": "カメリアは箱の中",
@@ -1242,10 +1242,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/5811681"
+      "url": ""
     },
     {
-      "title": "監獄館殺人事件",
+      "title": "<b>監獄館殺人事件</b>",
       "systems": [
         "CoC"
       ],
@@ -1256,10 +1256,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/1599139"
+      "url": ""
     },
     {
-      "title": "奇奇怪怪同好会",
+      "title": "<b>奇奇怪怪同好会</b>",
       "systems": [
         "CoC"
       ],
@@ -1271,10 +1271,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/4204972"
+      "url": ""
     },
     {
-      "title": "きさらぎ駅",
+      "title": "<p>\nきさらぎ駅 \n</p>",
       "systems": [
         "CoC"
       ],
@@ -1283,7 +1283,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://www.pixiv.net/novel/show.php?id=5857588"
+      "url": ""
     },
     {
       "title": "君の唾液で中毒になりたい",
@@ -1300,7 +1300,7 @@
       "url": ""
     },
     {
-      "title": "きみはもりのなか",
+      "title": "<b>きみはもりのなか</b>",
       "systems": [
         "CoC"
       ],
@@ -1311,7 +1311,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/3493842"
+      "url": ""
     },
     {
       "title": "君を土に埋める日",
@@ -1325,10 +1325,10 @@
       "knowledge": "played",
       "canRun": true,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3594829"
+      "url": ""
     },
     {
-      "title": "決められたハッピーエンドに祝福を！[シナリオ集]",
+      "title": "決められたハッピーエンドに祝福を！\\[シナリオ集\\]",
       "systems": [
         "CoC"
       ],
@@ -1337,7 +1337,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/5801922"
+      "url": ""
     },
     {
       "title": "餃子パーティー以外やることある？",
@@ -1349,10 +1349,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4175247"
+      "url": ""
     },
     {
-      "title": "今日だけあなたのメイドさん",
+      "title": "<b>今日だけあなたのメイドさん</b>",
       "systems": [
         "CoC"
       ],
@@ -1363,7 +1363,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6843510"
+      "url": ""
     },
     {
       "title": "キルキルイキル",
@@ -1377,7 +1377,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/1164423"
+      "url": ""
     },
     {
       "title": "禁忌の瞳",
@@ -1389,10 +1389,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://talto.cc/projects/j9AG3UmyfFKATJfhT9o0m"
+      "url": ""
     },
     {
-      "title": "空白の航海",
+      "title": "<b>空白の航海</b>",
       "systems": [
         "CoC"
       ],
@@ -1401,10 +1401,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://huroshikit.booth.pm/items/3790708"
+      "url": ""
     },
     {
-      "title": "空理空論の病",
+      "title": "<b>空理空論の病</b>",
       "systems": [
         "CoC"
       ],
@@ -1415,10 +1415,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://ssum-trpg.booth.pm/items/5119138"
+      "url": ""
     },
     {
-      "title": "クレイジー・ラフティーショー！",
+      "title": "<b>クレイジー・ラフティーショー！</b>",
       "systems": [
         "CoC"
       ],
@@ -1429,7 +1429,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6725522"
+      "url": ""
     },
     {
       "title": "炯炯アデュラレッセンス",
@@ -1443,7 +1443,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4320817"
+      "url": ""
     },
     {
       "title": "劇薬",
@@ -1457,10 +1457,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2856105"
+      "url": ""
     },
     {
-      "title": "原題_イゴーロナクとチャH(仮)",
+      "title": "原題\\_イゴーロナクとチャH(仮)",
       "systems": [
         "CoC"
       ],
@@ -1469,7 +1469,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://tsugomorido.booth.pm/items/4283720"
+      "url": ""
     },
     {
       "title": "恋心に喝采を",
@@ -1481,10 +1481,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://remaremare.booth.pm/items/4670678"
+      "url": ""
     },
     {
-      "title": "恋文は密やかに",
+      "title": "<b>恋文は密やかに</b>",
       "systems": [
         "CoC"
       ],
@@ -1495,7 +1495,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2675930"
+      "url": ""
     },
     {
       "title": "豪華客船と怪盗団",
@@ -1507,7 +1507,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/333911"
+      "url": ""
     },
     {
       "title": "コーヒー一杯分の恐怖",
@@ -1533,7 +1533,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2065949"
+      "url": ""
     },
     {
       "title": "辜月のN",
@@ -1547,10 +1547,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2011729"
+      "url": ""
     },
     {
-      "title": "ご注文は私でしょ！？",
+      "title": "<b>ご注文は私でしょ！？</b>",
       "systems": [
         "CoC"
       ],
@@ -1561,7 +1561,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://www.pixiv.net/novel/show.php?id=13326933"
+      "url": ""
     },
     {
       "title": "孤独の密室",
@@ -1573,10 +1573,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/3431447"
+      "url": ""
     },
     {
-      "title": "こびとアパートの起源",
+      "title": "<b>こびとアパートの起源 </b>",
       "systems": [
         "CoC"
       ],
@@ -1585,7 +1585,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://suien.booth.pm/items/3311568"
+      "url": ""
     },
     {
       "title": "これっぱかしの道行よ",
@@ -1599,10 +1599,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2620911"
+      "url": ""
     },
     {
-      "title": "これは詳細を省くが 結論だけ言うと お前はイヌ",
+      "title": "<b>これは詳細を省くが 結論だけ言うと お前はイヌ</b>",
       "systems": [
         "CoC"
       ],
@@ -1613,10 +1613,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/1813196"
+      "url": ""
     },
     {
-      "title": "犀片",
+      "title": "<b>犀片</b>",
       "systems": [
         "CoC"
       ],
@@ -1627,7 +1627,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://hichikorori.booth.pm/items/4015491"
+      "url": ""
     },
     {
       "title": "催眠ダーリンLv1",
@@ -1641,7 +1641,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://tatuhara.booth.pm/items/4014982"
+      "url": ""
     },
     {
       "title": "砂糖菓子七つ",
@@ -1653,10 +1653,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/3394296"
+      "url": ""
     },
     {
-      "title": "さよならなんて言わせないから",
+      "title": "<b>さよならなんて言わせないから</b>",
       "systems": [
         "CoC"
       ],
@@ -1667,10 +1667,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://koduki-you-booth.booth.pm/items/7734182"
+      "url": ""
     },
     {
-      "title": "３週間だけ、付き合ってみよ。",
+      "title": "<b>３週間だけ、付き合ってみよ。</b>",
       "systems": [
         "CoC"
       ],
@@ -1681,10 +1681,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4238360"
+      "url": ""
     },
     {
-      "title": "三色の部屋",
+      "title": "<p>\n三色の部屋 \n</p>",
       "systems": [
         "CoC"
       ],
@@ -1696,7 +1696,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=6396385"
+      "url": ""
     },
     {
       "title": "シートゥージー",
@@ -1724,7 +1724,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3183517"
+      "url": ""
     },
     {
       "title": "死すべき騎士の定め",
@@ -1738,7 +1738,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6567480"
+      "url": ""
     },
     {
       "title": "シセン",
@@ -1750,7 +1750,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://talto.cc/projects/Q2XkgJYE83PpMUc55ZAlk"
+      "url": ""
     },
     {
       "title": "至胎",
@@ -1765,7 +1765,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://yomomocchi.booth.pm/items/3548017"
+      "url": ""
     },
     {
       "title": "したいをあらう",
@@ -1779,7 +1779,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6846979"
+      "url": ""
     },
     {
       "title": "実験体δは青に微笑む",
@@ -1794,7 +1794,7 @@
       "knowledge": "played",
       "canRun": true,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2425489"
+      "url": ""
     },
     {
       "title": "実録！警察拉麵24時！",
@@ -1808,10 +1808,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/7385195"
+      "url": ""
     },
     {
-      "title": "実録！ラブホホラー8時間～土日なのに宿泊3000円ってマジ？～",
+      "title": "<b>実録！ラブホホラー8時間～土日なのに宿泊3000円ってマジ？～</b>",
       "systems": [
         "CoC"
       ],
@@ -1822,7 +1822,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4321806"
+      "url": ""
     },
     {
       "title": "死神とカバディ",
@@ -1834,7 +1834,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://www.pixiv.net/novel/show.php?id=7068295"
+      "url": ""
     },
     {
       "title": "死はきみの名を覚えているか",
@@ -1848,7 +1848,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://1numa1.booth.pm/items/4549190"
+      "url": ""
     },
     {
       "title": "シャーデンフロイデの箱のなか",
@@ -1863,7 +1863,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://ta-k-ao.booth.pm/items/7310596"
+      "url": ""
     },
     {
       "title": "襲来！？謎のマッチョ～筋肉痛は明日への希望～",
@@ -1877,10 +1877,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://www.pixiv.net/novel/show.php?id=18264549"
+      "url": ""
     },
     {
-      "title": "祝福にいたらない天国",
+      "title": "<b>祝福にいたらない天国</b>",
       "systems": [
         "CoC"
       ],
@@ -1889,7 +1889,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/5605467"
+      "url": ""
     },
     {
       "title": "祝福フィアンサーユ",
@@ -1903,7 +1903,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4420760"
+      "url": ""
     },
     {
       "title": "ショートショート・ホラ〜ショット",
@@ -1917,7 +1917,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/5989929"
+      "url": ""
     },
     {
       "title": "白南風に揺れる",
@@ -1941,10 +1941,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
-      "title": "新世界より",
+      "title": "<b>新世界より</b>",
       "systems": [
         "CoC"
       ],
@@ -1953,7 +1953,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://talto.cc/projects/zj0Hc2fPVVWSALU5ooiF6"
+      "url": ""
     },
     {
       "title": "心臓がちょっとはやく動くだけ",
@@ -1965,9 +1965,9 @@
       ],
       "reading": "しんぞうがちょっとはやくうごくだけ/心はや/しんはや",
       "knowledge": "played",
-      "canRun": false,
+      "canRun": true,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=9923582"
+      "url": ""
     },
     {
       "title": "しんでなんかないよ",
@@ -1979,9 +1979,9 @@
       ],
       "reading": "しんでなんかないよ/しんない",
       "knowledge": "known",
-      "canRun": false,
+      "canRun": true,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5422891"
+      "url": ""
     },
     {
       "title": "人類最後のみなさまへ",
@@ -1995,7 +1995,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/4699593"
+      "url": ""
     },
     {
       "title": "神話と科学",
@@ -2007,7 +2007,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=14151776"
+      "url": ""
     },
     {
       "title": "救いに非ず",
@@ -2019,7 +2019,7 @@
       "knowledge": "planned",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/1147942"
+      "url": ""
     },
     {
       "title": "すみません！結婚情報誌を制作している者なんですが……",
@@ -2031,7 +2031,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5751996"
+      "url": ""
     },
     {
       "title": "聖者の街",
@@ -2057,10 +2057,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3251000"
+      "url": ""
     },
     {
-      "title": "セックスしなくても出られる部屋",
+      "title": "<b>セックスしなくても出られる部屋</b>",
       "systems": [
         "CoC"
       ],
@@ -2069,10 +2069,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://melancholiclab.booth.pm/items/5932885"
+      "url": ""
     },
     {
-      "title": "摂氏三十六度のリュミエール",
+      "title": "<b>摂氏三十六度のリュミエール</b>",
       "systems": [
         "CoC"
       ],
@@ -2084,7 +2084,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=10019982"
+      "url": ""
     },
     {
       "title": "絶望の孤島",
@@ -2096,10 +2096,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/99642"
+      "url": ""
     },
     {
-      "title": "迫り来る闇",
+      "title": "<p>\n迫り来る闇 \n</p>",
       "systems": [
         "CoC"
       ],
@@ -2113,7 +2113,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=9232358"
+      "url": ""
     },
     {
       "title": "ゼロごはん",
@@ -2125,9 +2125,9 @@
       ],
       "reading": "ぜろごはん",
       "knowledge": "known",
-      "canRun": false,
+      "canRun": true,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=16589660"
+      "url": ""
     },
     {
       "title": "零肺飛行",
@@ -2139,7 +2139,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
       "title": "ソープスクール",
@@ -2153,7 +2153,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2108125"
+      "url": ""
     },
     {
       "title": "その容貌に果てを見る",
@@ -2170,7 +2170,7 @@
       "url": ""
     },
     {
-      "title": "それはまるで少女漫画のような",
+      "title": "<b>それはまるで少女漫画のような</b>",
       "systems": [
         "CoC"
       ],
@@ -2181,7 +2181,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://lune-star.booth.pm/items/5427136"
+      "url": ""
     },
     {
       "title": "ただI LOVE YOUを言いたくて",
@@ -2193,7 +2193,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://yumetarou-tomato.booth.pm/items/5450228"
+      "url": ""
     },
     {
       "title": "タマシイ織り機",
@@ -2207,7 +2207,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=15102502"
+      "url": ""
     },
     {
       "title": "探索者がシャトルランやるだけ",
@@ -2221,10 +2221,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://x.com/bi_no_/status/1402085636123676673"
+      "url": ""
     },
     {
-      "title": "探索者と職人～ソバ打ちＡＶをしないと出られない部屋～",
+      "title": "<b>探索者と職人～ソバ打ちＡＶをしないと出られない部屋～</b>",
       "systems": [
         "CoC"
       ],
@@ -2235,7 +2235,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3391234"
+      "url": ""
     },
     {
       "title": "探索者ハイスクールデスゲーム",
@@ -2249,7 +2249,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://vat0uq.booth.pm/items/7749802"
+      "url": ""
     },
     {
       "title": "チョコレート・メルト",
@@ -2277,7 +2277,7 @@
       ],
       "reading": "ちょっとはなしがしたかったから/ちょとから",
       "knowledge": "played",
-      "canRun": false,
+      "canRun": true,
       "owned": true,
       "url": ""
     },
@@ -2291,7 +2291,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=7611478"
+      "url": ""
     },
     {
       "title": "月がきれいだとかより",
@@ -2305,10 +2305,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/6196560"
+      "url": ""
     },
     {
-      "title": "月を虧く",
+      "title": "<b>月を虧く</b>",
       "systems": [
         "CoC"
       ],
@@ -2319,7 +2319,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://daiten.booth.pm/items/4326512"
+      "url": ""
     },
     {
       "title": "ディープブルーにキラめいて",
@@ -2333,10 +2333,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://jahimitan.booth.pm/items/4982626"
+      "url": ""
     },
     {
-      "title": "デイドリーム・カタストロフ",
+      "title": "<b>デイドリーム・カタストロフ</b>",
       "systems": [
         "CoC"
       ],
@@ -2345,10 +2345,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://hken.booth.pm/items/5705184"
+      "url": ""
     },
     {
-      "title": "溺遭",
+      "title": "<b>溺遭</b>",
       "systems": [
         "CoC"
       ],
@@ -2359,10 +2359,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/6255113"
+      "url": ""
     },
     {
-      "title": "てとりてにかけてにおちる",
+      "title": "<b>てとりてにかけてにおちる</b>",
       "systems": [
         "CoC"
       ],
@@ -2373,10 +2373,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/4606210"
+      "url": ""
     },
     {
-      "title": "出られない部屋VS付き合ってない俺たち",
+      "title": "<b>出られない部屋VS付き合ってない俺たち</b>",
       "systems": [
         "CoC"
       ],
@@ -2387,7 +2387,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://jiraiyasan.booth.pm/items/4378096"
+      "url": ""
     },
     {
       "title": "電気代がバカ高ぇ！！",
@@ -2405,7 +2405,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5215786"
+      "url": ""
     },
     {
       "title": "天啓劫火",
@@ -2419,10 +2419,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3469849"
+      "url": ""
     },
     {
-      "title": "天国の偽称",
+      "title": "<b>天国の偽称</b>",
       "systems": [
         "CoC"
       ],
@@ -2434,10 +2434,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5563855"
+      "url": ""
     },
     {
-      "title": "天使は真綿で出来ている",
+      "title": "<b>天使は真綿で出来ている</b>",
       "systems": [
         "CoC"
       ],
@@ -2448,10 +2448,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4904535"
+      "url": ""
     },
     {
-      "title": "塔、バベルの。",
+      "title": "<b>塔、バベルの。</b>",
       "systems": [
         "CoC"
       ],
@@ -2463,7 +2463,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://yulicotrpg.booth.pm/items/7670323"
+      "url": ""
     },
     {
       "title": "塔葬の国",
@@ -2475,7 +2475,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2117487"
+      "url": ""
     },
     {
       "title": "蕩々に尾鰭",
@@ -2487,7 +2487,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://h3-po4-trpg.booth.pm/items/4871240"
+      "url": ""
     },
     {
       "title": "毒入りスープ",
@@ -2499,7 +2499,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://utataneprojectvoic.wixsite.com/utatanevoiceproject/blank-1"
+      "url": ""
     },
     {
       "title": "トルチェ・デ・キッチュ！",
@@ -2511,7 +2511,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://denebola.booth.pm/items/2350812"
+      "url": ""
     },
     {
       "title": "どろ船だって浮かぶ街",
@@ -2523,10 +2523,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/4780239"
+      "url": ""
     },
     {
-      "title": "七罪週間",
+      "title": "<b>七罪週間</b>",
       "systems": [
         "CoC"
       ],
@@ -2537,7 +2537,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/1326737%20https://x.com/shibadog4869/status/1457956477491027969"
+      "url": ""
     },
     {
       "title": "なゆた孕みしもの",
@@ -2551,10 +2551,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://somu.booth.pm/items/6382578"
+      "url": ""
     },
     {
-      "title": "日常のすゝめ[シナリオ集]",
+      "title": "日常のすゝめ\\[シナリオ集\\]",
       "systems": [
         "CoC"
       ],
@@ -2563,7 +2563,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://yumetarou-tomato.booth.pm/items/4146573"
+      "url": ""
     },
     {
       "title": "庭師は何を口遊む",
@@ -2577,7 +2577,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=9232553"
+      "url": ""
     },
     {
       "title": "人間卒業",
@@ -2603,7 +2603,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://bananana.booth.pm/items/4885687"
+      "url": ""
     },
     {
       "title": "ネコ忍者の襲撃！",
@@ -2617,7 +2617,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5373847"
+      "url": ""
     },
     {
       "title": "ねべでむ",
@@ -2632,7 +2632,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4016833"
+      "url": ""
     },
     {
       "title": "ねむるアクアリウム",
@@ -2646,7 +2646,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5810560"
+      "url": ""
     },
     {
       "title": "灰かぶりハーバリウム",
@@ -2658,7 +2658,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://oso-shiki.booth.pm/items/1717085"
+      "url": ""
     },
     {
       "title": "拝啓、不器用な貴方へ",
@@ -2672,7 +2672,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4748913"
+      "url": ""
     },
     {
       "title": "墓穴に納まる",
@@ -2687,10 +2687,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://vat0uq.booth.pm/items/3790406"
+      "url": ""
     },
     {
-      "title": "博士の愛した人形に捧ぐ",
+      "title": "<b>博士の愛した人形に捧ぐ</b>",
       "systems": [
         "CoC"
       ],
@@ -2701,10 +2701,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3685030"
+      "url": ""
     },
     {
-      "title": "暴走！妄想！ 〈探索者〉×〈KPC〉ノート！",
+      "title": "<b>暴走！妄想！ 〈探索者〉×〈KPC〉ノート！</b>",
       "systems": [
         "CoC"
       ],
@@ -2715,7 +2715,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5529484"
+      "url": ""
     },
     {
       "title": "化の国",
@@ -2729,7 +2729,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2114004"
+      "url": ""
     },
     {
       "title": "バックスペース禁止シナリオ",
@@ -2741,7 +2741,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5955560"
+      "url": ""
     },
     {
       "title": "果てで待ち合わせ",
@@ -2755,7 +2755,7 @@
       "knowledge": "known",
       "canRun": true,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6847947"
+      "url": ""
     },
     {
       "title": "花の下紐、ほころぶか？",
@@ -2770,10 +2770,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/6686869"
+      "url": ""
     },
     {
-      "title": "花冷えに亡く季節",
+      "title": "<b>花冷えに亡く季節</b>",
       "systems": [
         "CoC"
       ],
@@ -2782,10 +2782,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://haruobake.booth.pm/items/2086541"
+      "url": ""
     },
     {
-      "title": "ひつじさんにおやすみなさい",
+      "title": "<b>ひつじさんにおやすみなさい</b>",
       "systems": [
         "CoC"
       ],
@@ -2794,10 +2794,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/5659071"
+      "url": ""
     },
     {
-      "title": "火点し頃の蜘蛛踊り",
+      "title": "<b>火点し頃の蜘蛛踊り</b>",
       "systems": [
         "CoC"
       ],
@@ -2808,7 +2808,7 @@
       "knowledge": "unconfirmed",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/6554582"
+      "url": ""
     },
     {
       "title": "罅割れてハイドランジア",
@@ -2822,7 +2822,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3078198"
+      "url": ""
     },
     {
       "title": "フカシカ▲▲▲",
@@ -2836,7 +2836,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3694163"
+      "url": ""
     },
     {
       "title": "馥腹福",
@@ -2848,12 +2848,12 @@
       ],
       "reading": "ふくふくふく/ふく３",
       "knowledge": "known",
-      "canRun": false,
+      "canRun": true,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3986384"
+      "url": ""
     },
     {
-      "title": "彘",
+      "title": "<b>彘</b>",
       "systems": [
         "CoC"
       ],
@@ -2862,7 +2862,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://satounabe.booth.pm/items/2409500"
+      "url": ""
     },
     {
       "title": "プライベートプールでおもちゃのアヒルちゃんを眺めるシナリオ",
@@ -2876,10 +2876,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/4024644"
+      "url": ""
     },
     {
-      "title": "フライングオクトパス",
+      "title": "<b>フライングオクトパス</b>",
       "systems": [
         "ザ・ループ"
       ],
@@ -2888,10 +2888,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3143990"
+      "url": ""
     },
     {
-      "title": "プラトンの余談",
+      "title": "<b>プラトンの余談</b>",
       "systems": [
         "CoC"
       ],
@@ -2902,7 +2902,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6048264"
+      "url": ""
     },
     {
       "title": "ブレインガズムフロー",
@@ -2916,10 +2916,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://tatuhara.booth.pm/items/5716992"
+      "url": ""
     },
     {
-      "title": "風呂が冷えているんだが？",
+      "title": "<b>風呂が冷えているんだが？</b>",
       "systems": [
         "CoC"
       ],
@@ -2930,10 +2930,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/3350936"
+      "url": ""
     },
     {
-      "title": "ベイビーフォーミュラ[シナリオ集]",
+      "title": "<b>ベイビーフォーミュラ\\[シナリオ集\\]</b>",
       "systems": [
         "CoC"
       ],
@@ -2942,7 +2942,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://gumgumvon.booth.pm/items/4272426"
+      "url": ""
     },
     {
       "title": "片鱗",
@@ -2971,10 +2971,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/4016323"
+      "url": ""
     },
     {
-      "title": "骨を撒きに海へ往く",
+      "title": "<b>骨を撒きに海へ往く</b>",
       "systems": [
         "CoC"
       ],
@@ -2986,7 +2986,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6951652"
+      "url": ""
     },
     {
       "title": "ホルマリン漬けの心臓",
@@ -3000,7 +3000,7 @@
       "knowledge": "played",
       "canRun": true,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=9985947"
+      "url": ""
     },
     {
       "title": "埋蔵金の村",
@@ -3012,10 +3012,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/942140"
+      "url": ""
     },
     {
-      "title": "蒔いた種は刈らねばならぬ",
+      "title": "<b>蒔いた種は刈らねばならぬ</b>",
       "systems": [
         "CoC"
       ],
@@ -3026,7 +3026,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://okayu-cookie.booth.pm/items/6548477"
+      "url": ""
     },
     {
       "title": "マシュマロプラネット",
@@ -3040,10 +3040,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://talto.cc/projects/6MMQQPjyVK0oVegkUgrfJ"
+      "url": ""
     },
     {
-      "title": "マッチングアプリで出会った相手が殺人鬼だったんだけど(以下略)",
+      "title": "<b>マッチングアプリで出会った相手が殺人鬼だったんだけど(以下略)</b>",
       "systems": [
         "CoC"
       ],
@@ -3055,10 +3055,10 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/5897616"
+      "url": ""
     },
     {
-      "title": "○○だよ！チキチキカップル大決戦♡",
+      "title": "<b>○○だよ！チキチキカップル大決戦♡</b>",
       "systems": [
         "CoC"
       ],
@@ -3067,7 +3067,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3625160"
+      "url": ""
     },
     {
       "title": "ミイラレ",
@@ -3081,7 +3081,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/7335512%E3%82%AB%E3%83%AB%E3%83%88"
+      "url": ""
     },
     {
       "title": "ミルタの碑銘",
@@ -3095,7 +3095,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2480368"
+      "url": ""
     },
     {
       "title": "無垢の神",
@@ -3107,7 +3107,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://ttarion000.booth.pm/items/7444889"
+      "url": ""
     },
     {
       "title": "無精卵は孵らない",
@@ -3124,7 +3124,7 @@
       "url": ""
     },
     {
-      "title": "無知シチュえっちしないと出られない部屋",
+      "title": "<b>無知シチュえっちしないと出られない部屋</b>",
       "systems": [
         "CoC"
       ],
@@ -3135,7 +3135,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://cheese-f-w.booth.pm/items/8591057"
+      "url": ""
     },
     {
       "title": "愛々累々",
@@ -3149,7 +3149,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://utyuhebi.booth.pm/items/5990633"
+      "url": ""
     },
     {
       "title": "メモリーズ・エンド",
@@ -3163,7 +3163,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2227005"
+      "url": ""
     },
     {
       "title": "妄室の檻",
@@ -3175,7 +3175,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://www.pixiv.net/novel/show.php?id=15609952"
+      "url": ""
     },
     {
       "title": "亡者の森",
@@ -3190,7 +3190,7 @@
       "url": ""
     },
     {
-      "title": "盲心未遂",
+      "title": "<b>盲心未遂</b>",
       "systems": [
         "CoC"
       ],
@@ -3199,7 +3199,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": false,
-      "url": "https://benimashiko.booth.pm/items/4018971"
+      "url": ""
     },
     {
       "title": "もっと食べたい",
@@ -3226,7 +3226,7 @@
       "url": ""
     },
     {
-      "title": "悶悶",
+      "title": "<b>悶悶</b>",
       "systems": [
         "CoC"
       ],
@@ -3235,7 +3235,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://mearinohatake.booth.pm/items/5917981"
+      "url": ""
     },
     {
       "title": "やさしい朝をくださいね",
@@ -3249,7 +3249,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://www.pixiv.net/novel/show.php?id=13010005"
+      "url": ""
     },
     {
       "title": "やさしい世界と呼吸法",
@@ -3261,10 +3261,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://july-no-jinrui.booth.pm/items/3086837"
+      "url": ""
     },
     {
-      "title": "ヤゼル",
+      "title": "<b>ヤゼル</b>",
       "systems": [
         "CoC"
       ],
@@ -3275,7 +3275,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://tamagodx1414.booth.pm/items/3401107"
+      "url": ""
     },
     {
       "title": "ヤツユメウナギの夢",
@@ -3290,10 +3290,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/3243205"
+      "url": ""
     },
     {
-      "title": "ヤバ物件・オブ・いあ！",
+      "title": "<b>ヤバ物件・オブ・いあ！</b>",
       "systems": [
         "CoC"
       ],
@@ -3302,10 +3302,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/3760439"
+      "url": ""
     },
     {
-      "title": "山滴り、きみとくらす",
+      "title": "<b>山滴り、きみとくらす</b>",
       "systems": [
         "CoC"
       ],
@@ -3314,7 +3314,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://jiraiyasan.booth.pm/items/5962764"
+      "url": ""
     },
     {
       "title": "闇にむらくも、花に灰",
@@ -3326,7 +3326,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5567047"
+      "url": ""
     },
     {
       "title": "やわらかな希求",
@@ -3340,7 +3340,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://hagumi-hakumai.booth.pm/items/6361068"
+      "url": ""
     },
     {
       "title": "雪の果てに見た景色は",
@@ -3352,7 +3352,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/6716932"
+      "url": ""
     },
     {
       "title": "雪宿り",
@@ -3366,7 +3366,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5238599"
+      "url": ""
     },
     {
       "title": "雪山密室",
@@ -3378,10 +3378,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=10951845"
+      "url": ""
     },
     {
-      "title": "夢を見るなら食事のあとで",
+      "title": "<b>夢を見るなら食事のあとで</b>",
       "systems": [
         "CoC"
       ],
@@ -3392,7 +3392,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/2314932"
+      "url": ""
     },
     {
       "title": "ゆりかごはからっぽ",
@@ -3406,10 +3406,10 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://aetostingray.booth.pm/items/5933976"
+      "url": ""
     },
     {
-      "title": "ようこそ！迷冥市役所都市伝説課へ！",
+      "title": "<b>ようこそ！迷冥市役所都市伝説課へ！</b>",
       "systems": [
         "CoC"
       ],
@@ -3420,7 +3420,7 @@
       "knowledge": "unconfirmed",
       "canRun": false,
       "owned": true,
-      "url": "https://sabaku-yozora.booth.pm/items/2432227"
+      "url": ""
     },
     {
       "title": "ようなしびゅら",
@@ -3434,10 +3434,10 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=16352231"
+      "url": ""
     },
     {
-      "title": "欲夜",
+      "title": "<b>欲夜</b>",
       "systems": [
         "CoC"
       ],
@@ -3448,7 +3448,7 @@
       "knowledge": "uncertain",
       "canRun": false,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5964060"
+      "url": ""
     },
     {
       "title": "四人の令嬢と執事たち",
@@ -3462,10 +3462,10 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2294192"
+      "url": ""
     },
     {
-      "title": "ラプラスのクォーター達",
+      "title": "<b>ラプラスのクォーター達</b>",
       "systems": [
         "CoC"
       ],
@@ -3476,7 +3476,7 @@
       "knowledge": "known",
       "canRun": true,
       "owned": true,
-      "url": "https://booth.pm/ja/items/5337593"
+      "url": ""
     },
     {
       "title": "瑠璃色絵画",
@@ -3488,7 +3488,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": true,
-      "url": "https://www.pixiv.net/novel/show.php?id=6829262"
+      "url": ""
     },
     {
       "title": "レプリカントの葬列",
@@ -3502,10 +3502,10 @@
       "knowledge": "played",
       "canRun": true,
       "owned": true,
-      "url": "https://booth.pm/ja/items/3601506"
+      "url": ""
     },
     {
-      "title": "弄火と片言隻語",
+      "title": "<b>弄火と片言隻語</b>",
       "systems": [
         "CoC"
       ],
@@ -3516,7 +3516,7 @@
       "knowledge": "unknown",
       "canRun": false,
       "owned": true,
-      "url": "https://hasuta-city.booth.pm/items/4018899"
+      "url": ""
     },
     {
       "title": "ロマニストナイト症候群",
@@ -3528,7 +3528,7 @@
       "knowledge": "known",
       "canRun": false,
       "owned": true,
-      "url": "https://ssss33sa.booth.pm/items/4018446"
+      "url": ""
     },
     {
       "title": "ワンルーム・ディスコン",
@@ -3542,7 +3542,7 @@
       "knowledge": "played",
       "canRun": false,
       "owned": false,
-      "url": "https://booth.pm/ja/items/2400328"
+      "url": ""
     }
   ]
 }
