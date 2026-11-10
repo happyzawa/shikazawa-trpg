@@ -3,6 +3,11 @@ import assert from 'node:assert/strict';
 import { publicScenario, documentHtml } from './build.mjs';
 const day = '2026-11-09';
 const row = values => ({ 名前: 'テスト', システム: '["CoC"]', ...values });
+test('export formatting is removed without removing title characters', () => {
+  assert.equal(publicScenario(row({ 名前: '<p>\n Empty∅Set\n</p>' }), day).title, 'Empty∅Set');
+  assert.equal(publicScenario(row({ 名前: '<b>████</b>が消えた夏' }), day).title, '████が消えた夏');
+  assert.equal(publicScenario(row({ '読み仮名・略称': 'Living<br /> under one roof' }), day).reading, 'Living under one roof');
+});
 test('known content and ownership do not imply played or runnable', () => {
   const result = publicScenario(row({ '既知/未知': '["既知"]', 所持状況: '所持', 'KP回数(CoC)': 3, 個人的感想タグ: '["回したい"]' }), day);
   assert.equal(result.knowledge, 'known'); assert.equal(result.canRun, false);

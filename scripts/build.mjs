@@ -3,6 +3,11 @@ import { readFile, writeFile } from 'node:fs/promises';
 const ROOT = new URL('../', import.meta.url);
 const list = value => Array.isArray(value) ? value : value ? JSON.parse(value) : [];
 const nonempty = value => typeof value === 'string' ? value.trim() : '';
+// Notion exports can retain formatting markup; display it as plain text.
+export const plainText = value => nonempty(value)
+  .replace(/<br\s*\/?\s*>/gi, ' ')
+  .replace(/<\/?(?:b|strong|i|em|u|s|span|p|div|h[1-6])\b[^>]*>/gi, '')
+  .replace(/\s+/g, ' ').trim();
 const safeUrl = value => {
   try {
     const url = new URL(value);
@@ -13,7 +18,7 @@ const safeUrl = value => {
 };
 
 export function publicScenario(row, today) {
-  const title = nonempty(row['名前']);
+  const title = plainText(row['名前']);
   const systems = list(row['システム']);
   if (!title || systems.length === 1 && systems[0] === 'ボドゲ') return null;
   const status = list(row['既知/未知']);
@@ -33,7 +38,7 @@ export function publicScenario(row, today) {
   else if (status.includes('未知')) knowledge = 'unknown';
   const canRun = tags.includes('部屋があるのですぐ回せます') && !tags.includes('回さない');
   // Explicit allowlist: never spread a private row into a public record.
-  return { title, systems, formats: list(row['形式']), reading: nonempty(row['読み仮名・略称']), knowledge, canRun, owned: row['所持状況'] === '所持', url: safeUrl(row['userDefined:URL']) };
+  return { title, systems, formats: list(row['形式']), reading: plainText(row['読み仮名・略称']), knowledge, canRun, owned: row['所持状況'] === '所持', url: safeUrl(row['userDefined:URL']) };
 }
 
 export function documentHtml(template, data) {
@@ -51,7 +56,7 @@ if (process.argv[1] && new URL(process.argv[1], 'file:').href === import.meta.ur
   } : current;
   const overrides = JSON.parse(await readFile(new URL('data/overrides.json', ROOT), 'utf8'));
   for (const entry of data.scenarios) {
-    const override = overrides[entry.title];
+    const override = overrides[entry.title] || Object.entries(overrides).find(([title]) => plainText(title) === entry.title)?.[1];
     if (!override) continue;
     if (['played', 'known', 'planned', 'unknown', 'uncertain', 'unconfirmed'].includes(override.knowledge)) entry.knowledge = override.knowledge;
     if (typeof override.canRun === 'boolean') entry.canRun = override.canRun;
