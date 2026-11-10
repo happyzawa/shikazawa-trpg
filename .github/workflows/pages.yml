@@ -21,16 +21,20 @@ jobs:
       - uses: actions/configure-pages@v5
       - name: Validate and build public page
         run: |
-          node --test scripts/build.test.mjs
+          node --test scripts/*.test.mjs
           node scripts/build.mjs
       - name: Prepare public files
         run: |
           mkdir -p public
-          cp index.html .nojekyll favicon.svg favicon-32.png favicon.ico apple-touch-icon.png public/
+          cp index.html .nojekyll favicon.svg favicon-32.png favicon.ico apple-touch-icon.png characters.js characters.css public/
+          mkdir -p public/data
+          cp data/characters.json public/data/
+          if [ -d assets/characters ]; then mkdir -p public/assets; cp -R assets/characters public/assets/; fi
       - uses: actions/upload-pages-artifact@v3
         with:
           path: public
       - name: Deploy
         id: deployment
         uses: actions/deploy-pages@v4
+
 

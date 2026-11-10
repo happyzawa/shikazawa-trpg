@@ -1,4 +1,5 @@
-import { readFile, writeFile } from 'node:fs/promises';
+import { readFile, writeFile, access } from 'node:fs/promises';
+import {embedCharacters,validateCharacters} from './characters.mjs';
 
 const ROOT = new URL('../', import.meta.url);
 const list = value => Array.isArray(value) ? value : value ? JSON.parse(value) : [];
@@ -63,6 +64,9 @@ if (process.argv[1] && new URL(process.argv[1], 'file:').href === import.meta.ur
   }
   await writeFile(new URL('data/scenarios.json', ROOT), JSON.stringify(data, null, 2) + '\n');
   const template = await readFile(new URL('index.html', ROOT), 'utf8');
-  await writeFile(new URL('index.html', ROOT), documentHtml(template, data));
+  const characters=validateCharacters(JSON.parse(await readFile(new URL('data/characters.json',ROOT),'utf8')));
+  for(const character of characters.characters)for(const path of [character.thumbnail,character.portrait])if(path)await access(new URL(path,ROOT));
+  await writeFile(new URL('index.html', ROOT), embedCharacters(documentHtml(template, data),characters));
   console.log(`Built ${data.scenarios.length} public scenarios.`);
 }
+
