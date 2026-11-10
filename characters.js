@@ -1,6 +1,6 @@
 (()=>{'use strict';
 const root=document.getElementById('characters-panel'),list=document.getElementById('character-list'),search=document.getElementById('character-search'),result=document.getElementById('character-result'),dialog=document.getElementById('character-dialog'),detail=document.getElementById('character-detail');
-let data;try{data=JSON.parse(document.getElementById('character-data').textContent)}catch{list.textContent='探索者のデータを読み込めませんでした。';return}
+let data;try{data=JSON.parse(document.getElementById('character-data').textContent)}catch{list.textContent='キャラクターのデータを読み込めませんでした。';return}
 const characters=Array.isArray(data.characters)?data.characters:[],image=path=>typeof path==='string'&&/^assets\/characters\/[a-f0-9]{64}\.(png|jpg|webp|gif)$/.test(path)?path:'',node=(tag,cls,text)=>{const n=document.createElement(tag);if(cls)n.className=cls;if(text!==undefined)n.textContent=String(text);return n},normalize=s=>String(s||'').normalize('NFKC').toLocaleLowerCase();
 document.getElementById('characters-tab-count').textContent=characters.length;
 if(data.updatedAt){const time=document.getElementById('characters-updated');time.dateTime=data.updatedAt;time.textContent=new Intl.DateTimeFormat('ja-JP',{timeZone:'Asia/Tokyo',year:'numeric',month:'numeric',day:'numeric',hour:'2-digit',minute:'2-digit'}).format(new Date(data.updatedAt));}
@@ -15,6 +15,6 @@ function close(){dialog.close();opener?.focus()}
 document.getElementById('character-close').addEventListener('click',close);dialog.addEventListener('click',e=>{if(e.target===dialog)close()});dialog.addEventListener('close',()=>opener?.focus());
 function render(){const words=normalize(search.value).split(/\s+/).filter(Boolean),visible=characters.filter(c=>words.every(w=>normalize([c.name,c.reading,c.summary,c.scenario,c.system].join(' ')).includes(w)));result.textContent=`${visible.length}人 / 登録 ${characters.length}人`;const fragment=document.createDocumentFragment();
  for(const c of visible){const card=node('button','pc-card');card.type='button';card.setAttribute('aria-label',c.name+'の紹介を開く');const body=node('span','pc-card-body');body.append(node('small','pc-system',c.system),node('strong','pc-name',c.name));if(c.reading)body.append(node('span','pc-reading',c.reading));if(c.scenario)body.append(node('span','pc-scenario',c.scenario));body.append(node('span','pc-card-summary',c.summary||'紹介をひらく'),node('span','pc-card-link',image(c.portrait)?'紹介・立ち絵を見る →':'紹介を見る →'));card.append(thumbnail(c),body);card.addEventListener('click',()=>show(c,card));fragment.append(card)}
- if(!visible.length){const empty=node('div','pc-empty');empty.append(node('p','',characters.length?'この条件の探索者はいません。':'探索者の紹介は、準備中です。'),node('small','',characters.length?'名前やことばを変えて探してみてね。':'公開に選んだ探索者を、ここに少しずつ並べます。'));fragment.append(empty)}list.replaceChildren(fragment)}
+ if(!visible.length){const empty=node('div','pc-empty');empty.append(node('p','',characters.length?'この条件のキャラクターはいません。':'キャラクターの紹介は、準備中です。'),node('small','',characters.length?'名前やことばを変えて探してみてね。':'公開に選んだキャラクターを、ここに少しずつ並べます。'));fragment.append(empty)}list.replaceChildren(fragment)}
 search.addEventListener('input',render);render();
 })();
