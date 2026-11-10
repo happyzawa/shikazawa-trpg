@@ -29,7 +29,7 @@
 <nav class="page-tabs" role="tablist" aria-label="公開ページの内容"><button id="about-tab" type="button" role="tab" aria-selected="true" aria-controls="about-panel" data-page="about"><span class="tab-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M12 7v6m0 4h.01"></path></svg></span><span class="tab-copy"><strong>はじめに・注意書き</strong><small>About D-ZAWA</small></span></button><button id="scenarios-tab" type="button" role="tab" aria-selected="false" aria-controls="scenarios-panel" tabindex="-1" data-page="scenarios"><span class="tab-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M3 4h6a4 4 0 0 1 3 2 4 4 0 0 1 3-2h6v15h-6a4 4 0 0 0-3 2 4 4 0 0 0-3-2H3Z"></path><path d="M12 6v15"></path></svg></span><span class="tab-copy"><strong>シナリオ一覧</strong><small>通過済・既知・すぐ回せる・所持</small></span></button><button id="characters-tab" type="button" role="tab" aria-selected="false" aria-controls="characters-panel" data-page="characters" tabindex="-1"><span class="tab-icon" aria-hidden="true">✦</span><span class="tab-copy"><strong>探索者 <span id="characters-tab-count">0</span></strong><small>Characters</small></span></button></nav>
 <section id="scenarios-panel" role="tabpanel" aria-labelledby="scenarios-tab" tabindex="0" hidden>
 <section class="hero"><span class="eyebrow">PLAYED, KNOWN, READY TO RUN.</span><h1>遊びの、しおり。</h1><p class="intro">次に遊ぶものを、一緒に探すための記録。<br>通過済みのシナリオも、知っているお話も、すぐ回せるものも、手元にあるシナリオも。</p><div class="hero-meta"><span>しかざわ / @gmzwpg</span><span>データ同期 <time id="updated"></time></span><strong>Notionの記録から作成</strong></div></section>
-<aside class="guide"><p>すぐ回せるシナリオは、ご相談ください。基本的には身内向けです。</p><small>「すぐ回せる」は卓の開催をお約束するものではありません。日程などは個別に相談してね。</small></aside>
+<aside class="guide"><p>すぐ回せるシナリオを回りたい方はお声がけください。</p><small>卓の開催をお約束するものではありません。日程などは個別に相談してね。</small></aside>
 <div class="counts" role="group" aria-label="シナリオの状態で絞り込み">
 <button class="count" data-filter="all" aria-pressed="true"><span class="label">すべてのシナリオ</span><b id="all-count">—</b></button>
 <button class="count" data-filter="played" aria-pressed="false"><span class="label">通過済</span><b id="played-count">—</b></button>
@@ -41,7 +41,7 @@
 <div class="result-bar"><h2 id="list-title">シナリオ一覧 <span class="result-count" id="result-count" role="status" aria-live="polite"></span></h2><button id="reset" class="reset" hidden>絞り込みを解除</button></div>
 <div id="list" aria-labelledby="list-title"></div>
 <noscript><p class="noscript">一覧の表示にはJavaScriptを有効にしてください。</p></noscript>
-<details class="definitions"><summary>表示している状態について</summary><dl><dt>通過済</dt><dd>Notionの「既知」に加え、PLとしての役職・HOの登録があるもの。通過予定の記録は含めません。</dd><dt>既知</dt><dd>内容を知っていて、この一覧では「通過済」と確認していないもの。リプレイやネタバレで知ったものも含みます。</dd><dt>すぐ回せる</dt><dd>Notionで「部屋があるのですぐ回せます」と明示されているもの。通過済・既知と重複することがあります。</dd><dt>所持シナリオ</dt><dd>Notionの所持状況が「所持」になっている作品。通過済・既知・すぐ回せると重複することがあります。</dd><dt>既知かも</dt><dd>原本が「知ってるんだろうなぁ……」のもの。遊べるかどうかは個別に確認してください。</dd><dt>要確認</dt><dd>状態が未登録、または遊んだ記録と既知・未知の設定に食い違いがあるものです。</dd></dl></details>
+<details class="definitions"><summary>表示している状態について</summary><dl><dt>通過済</dt><dd>KPCを含みます。</dd><dt>既知</dt><dd>リプレイやネタバレで知ったものも含みます。</dd><dt>すぐ回せる</dt><dd>部屋などの準備が終わっており、楽に回せるもの。</dd><dt>所持シナリオ</dt><dd>購入済、もしくは保存してあるもの。無料シナリオは、ローカル保存まではしていないかもしれません。</dd><dt>既知かも</dt><dd>「知ってるんだろうなぁ……」のもの。遊べるかどうかは個別に確認してください。</dd><dt>要確認</dt><dd>こちらの不備で状態が未登録、または遊んだ記録と既知・未知の設定に食い違いがあるものです。</dd></dl></details>
 </section>
 <section id="about-panel" class="about-panel" role="tabpanel" aria-labelledby="about-tab" tabindex="0">
   <header id="about" class="about-hero">
@@ -56,28 +56,28 @@
       <section id="about-boundaries" class="about-section">
         <span class="eyebrow">01 / BEFORE WE PLAY</span>
         <h2>同卓前の注意書き</h2>
-        <p class="about-section-note">すきじゃないこと・苦手なこと</p><h3>基本姿勢</h3>
+        <p class="about-section-note">すきじゃないこと・苦手な要素</p><h3>基本姿勢</h3>
         <ul><li>内部状態のみを根拠として、他者を拘束すること</li><li>開示されていない情報を前提に、理解や配慮を求められること</li></ul>
         <section class="boundary-card boundary-refusal"><div class="boundary-card-header"><span class="boundary-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="m8 8 8 8m0-8-8 8"></path></svg></span><h3>拒否</h3>
           </div><p class="boundary-summary">判明した時点でセッション辞退の可能性があります。</p>
-          <div class="boundary-content"><p>加害構造が恋愛や愛情によって不可視化・正当化されること。特に大人による子どもの搾取のメタ的賛美をPLやKPが肯定、看過している状態</p>
+          <div class="boundary-content"><p>実際に被害者がいる加害構造が、感情（特に恋愛や愛情）によって不可視化・正当化されること。特に大人による子どもの性的搾取のメタ的賛美をPLやKPが肯定、看過している状態が嫌です。フィクションとしてならOKですが、生々しいと無理かも。</p>
         </div></section><section class="boundary-card boundary-discomfort"><div class="boundary-card-header"><span class="boundary-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="m12 3 10 18H2Z"></path><path d="M12 9v5m0 3h.01"></path></svg></span><h3>苦手</h3>
-        </div><p class="boundary-summary">多分その場で騒ぐ。「イヤーーー！」「ちょっと！！！」とか言う。</p>
+        </div><p class="boundary-summary">多分その場で騒ぐ。「イヤーーー！」「ちょっと！！！」とか言うかも。</p>
         <div class="boundary-content"><h4>あ〜あこの悲劇はこれを読み進めるお前のせいです系メタフィクション</h4>
         <h4>複数意味のある花言葉の誤解によって起こる取り返しがつかないコミュニケーションの齟齬</h4>
         <p>もう口で話せ。花はそのまま咲いているだけでいい。</p>
         <h4>喫煙描写のない人物の喫煙者化</h4>
         <p>現実のタバコが苦手なので、ビジュ的なアドより要らんもんを足さないでほしい気持ちが勝つ。元から吸ってるならOK。ビジュがかっこいいよね。煙って便利だし。</p>
         </div></section><section class="boundary-card boundary-skill"><div class="boundary-card-header"><span class="boundary-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="9"></circle><path d="M9 9a3 3 0 0 1 6 0c0 2-3 2-3 5m0 3h.01"></path></svg></span><h3>下手</h3>
-        </div><p class="boundary-summary">すっごい下手。こちらの能力の問題。</p>
+        </div><p class="boundary-summary">すっごい下手。こちらの能力不足。</p>
         <div class="boundary-content"><h4>地理・歴史</h4>
-        <p>要素は問題ないが、理解がうすらぼんやりしているので、生還にPLリアル知識が必要な場合、なめらかに詰みます。キャラメイクでもちょっと困る。調べはするが、それ以上は無理です。</p>
+        <p>要素は問題ないが、勉強中。理解がうすらぼんやりしているので、生還にPLリアル知識が必要な場合、なめらかに詰みます。キャラメイクでもちょっと困る。調べはするが、それ以上は無理です。</p>
         <h4>音声での情報処理・同時並列処理</h4>
         <p>わかんね〜！となってるところをお楽しみください。ボイセで割増のアホになる。声での情報伝達をおすすめしません。</p>
-        <p>大きな音もあまり……。でもワイワイ騒ぐのは好きなので、大丈夫です。なんか謎にびっくりしてそうだったら、そのへんが原因かも。</p>
+        <p>大きな音もあまり……。でもワイワイ騒ぐのは好きなので、大丈夫です。なんか謎にびっくりしてそうだったら、そのへんが原因かも。すみません。</p>
         </div></section><section class="boundary-card boundary-discretion"><div class="boundary-card-header"><span class="boundary-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 3C9 3 3 8 5 15c3 7 15 5 15-12Z"></path><path d="M4 21 15 10"></path></svg></span><h3>配慮に任せる</h3>
-        </div><p class="boundary-summary">具体的な対応はない。反してるなと感じてもこちらから特に何か対処したり、改善をお願いすることはないです。判断に任せますが、信頼は失われると思います。</p>
-        <div class="boundary-content"><p>「何かがあった」という事実だけ渡される状態。たとえば、私のいないところで私や私のPCなどに直接関わる話をしていた、という事実のみ伝わってくること</p>
+        </div><p class="boundary-summary">具体的な対応はない。反してるなと感じてもこちらから特に何か対処したり、改善をお願いすることはないです。判断に任せますが、信頼は減るかもしれません。</p>
+        <div class="boundary-content"><p>「何かがあった」という事実だけ渡されて何もできない状態。たとえば、私のいないところで私や私のPCなどに直接関わる話をしていた、という事実のみ伝わってくること</p>
       </div></section></section>
       <section id="about-play" class="about-section">
         <span class="eyebrow">02 / AT THE TABLE</span>
@@ -118,17 +118,17 @@
         <p>男性PCが多めですが、女性PCにも強い抵抗はありません。女性キャラの趣味が露骨でやや恥ずかしいため、あまり作りません。</p>
         <p>完全な善人でも悪人でもない人物が多いかな、と自分では思います。その人なりの誠実さを持っているキャラが好きですが、毎回そのような人物というわけでもなさそうです。</p>
         <h3>キャラクターへの態度</h3>
-        <p>創造主（一人称）は好き勝手言います。欠点ある架空の人が好きなので悪いところも積極的に書きます。</p>
+        <p>創造主（一人称）は好き勝手言います。欠点ある架空の人が好きなので悪いところも積極的に書きますが、愛着もそれなりにあります。</p>
         <h3>関係性を組むなどにあたって</h3>
         <h4>恋愛関係</h4>
         <p>性別関係なくOK。根拠を求めるタイプです。PCはあらかじめセクシャリティを設定してあることがあります。変更することは基本的にないです。</p>
-        <p>左右は最初から決まっていればそれに従って作成します。後から決める場合、好みを通す心理的コストより相手の好みに合わせない心理的コストの方が高いので基本的には相手の希望に合わせたいかも。全件受け入れが可能なわけではないと思いますが……。</p>
+        <p>左右、特にBLは最初から決まっていればそれに従って作成します。二次創作、と明記されていればなんでもいいです。公式にしたい場合は、相談させてください。</p>
         <h4>険悪</h4>
-        <p>PCがギャンギャンしててもPL側は楽しく見守るなら面白いです。「仲悪すぎて草」みたいな爆笑をしてしまう。</p>
+        <p>PCがギャンギャンしててもPL側は楽しく見守るなら面白がれると思います。「仲悪すぎて草」みたいな爆笑をしてしまうかも。</p>
         <h3>二次創作　大歓迎⭕️</h3>
         <p>うれし〜ありがとうございます。架空の二次創作の話をするのも好きです。</p>
         <p>もしPLとしてのしかざわとの繋がりが無くなったり、薄くなったりしても、悪意によるものでなければ、二次創作はOKです。</p>
-        <p>懸念があるとすれば手を離れて問題があったとき責任が取れないくらいなので、その場合は「感知していない」という対応をさせていただくと思います。</p>
+        <p>懸念があるとすれば「手を離れて問題があったとき責任が取れない」くらいなので、その場合は「感知していない」という対応をさせていただくと思います。</p>
       </section>
       <section id="about-profile" class="about-section">
         <span class="eyebrow">05 / PROFILE</span>
@@ -167,7 +167,7 @@
         </div>
         <h3 class="preference-heading"><span class="category-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><rect x="3" y="3" width="18" height="18" rx="3"></rect><path d="M7 7h.01M17 7h.01M12 12h.01M7 17h.01M17 17h.01"></path></svg></span><span>TRPGで好きな瞬間</span></h3>
         <div class="preference-grid">
-          <div><h4>自PCが他PC（特に子ども）に責められる・怒られる・揉める</h4><p>怒ってる架空の人が好きなので。実在の人間部分を責められても困るが。</p></div>
+          <div><h4>自PCが他PC（特に子ども）に怒られる</h4><p>怒ってる架空のかわいい人が好きなので。実在の人間部分を責められても困るが。</p></div>
           <div><h4>KPの描写の良さ／綺麗な文章</h4><p>うれしい。</p></div>
           <div><h4>「こういうの好きそう」と言われること</h4><p>関心が嬉しい。好き。</p></div>
           <div><h4>子どもキャラが関わってくれる</h4></div>
@@ -175,7 +175,7 @@
         <h3 class="preference-heading"><span class="category-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="m10 14 4-4M8 15l-1 1a4 4 0 0 1-6-6l4-4a4 4 0 0 1 6 0m2 3 1-1a4 4 0 0 1 6 6l-4 4a4 4 0 0 1-6 0" transform="translate(1 0)"></path></svg></span><span>関係性・構造萌え</span></h3>
         <p>（擬似）主従／擬似家族／片思いや一方通行の感情／支配と献身／解釈や意図のズレ／誤解／衝突／許し／試練／代替／本物でなくとも機能する関係</p>
         <h3 class="preference-heading"><span class="category-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M20 3C9 3 3 8 5 15c3 7 15 5 15-12Z"></path><path d="M4 21 15 10"></path></svg></span><span>性質・人格萌え</span></h3>
-        <p>未熟／無力さ／危うさ／神性／狂気／無表情／神経質／柔和な男性／純真無垢／無知／被造物／ちょっとかわいくてめっちゃ怖い／静かな狂人／知性剥奪</p>
+        <p>未熟／無力さ／危うさ／神性／狂気／無表情／神経質／生真面目／柔和な男性／純真無垢／無知／被造物／ちょっとかわいくてめっちゃ怖い／静かな狂人／知性剥奪</p>
         <h3 class="preference-heading"><span class="category-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><path d="M2 12s4-7 10-7 10 7 10 7-4 7-10 7S2 12 2 12Z"></path><circle cx="12" cy="12" r="3"></circle></svg></span><span>外見記号</span></h3>
         <p>色素薄い髪／彩度高い目／金髪碧眼／片目隠れ（顔見せOK）／短い前髪／かわいい顔<br>虚ろな目／ぐるぐる目／ギョロ目／ジト目　特殊デザインの目が好き</p>
         <h3 class="preference-heading"><span class="category-icon" aria-hidden="true"><svg viewbox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" focusable="false"><circle cx="12" cy="12" r="8"></circle><circle cx="12" cy="12" r="3"></circle><path d="M12 1v3m0 16v3M1 12h3m16 0h3"></path></svg></span><span>職能・役割属性</span></h3>
