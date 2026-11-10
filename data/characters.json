@@ -1,5 +1,18 @@
 {
   "format": "shikazawa-public-characters-v1",
-  "updatedAt": "",
-  "characters": []
+  "updatedAt": "2026-11-10T19:09:16.639Z",
+  "characters": [
+    {
+      "id": "profile-01",
+      "name": "八尋 湊",
+      "reading": "やひろ みなと",
+      "system": "CoC",
+      "summary": "ラノベ作家。流されやすく、短絡的。低俗な欲望に屈するわりに展望がぼんやりしている。優秀な兄と姉から溺愛されて育ったため、二足歩行に自信がある。漠然とモテたく、筋肉に憧れを募らせている。ゴールデンカムイは杉元が好き。",
+      "scenario": "実験体δは青に微笑む",
+      "thumbnail": "assets/characters/c2a5c0a50a30794202d984977db7e6b6328d69a705899efa3513e810ad7e682c.png",
+      "portrait": "",
+      "stats": {},
+      "skills": []
+    }
+  ]
 }
