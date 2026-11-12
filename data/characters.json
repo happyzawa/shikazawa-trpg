@@ -1,6 +1,6 @@
 {
   "format": "shikazawa-public-characters-v1",
-  "updatedAt": "2026-11-11T02:57:51.762Z",
+  "updatedAt": "2026-11-12T05:44:14.772Z",
   "characters": [
     {
       "id": "profile-01",
@@ -123,6 +123,18 @@
       "skills": []
     },
     {
+      "id": "profile-12",
+      "name": "新宮 姫吏",
+      "reading": "しんぐう ひめり",
+      "system": "CoC",
+      "summary": "強欲で自由な同人作家。イケメンに弱い。好きでもないカップリングの同人誌を描いて金を引っ張ってきている。確定申告がわかるが、面倒。好きなタイプは和風長髪白髪武器持ち無条件に自分にメロメロで確定申告ができるイケメン。",
+      "scenario": "Dreamer",
+      "thumbnail": "assets/characters/b8cade4721ccc05ff9362b935d09cc8f1f567b2c0996689bd39898559af83207.png",
+      "portrait": "",
+      "stats": {},
+      "skills": []
+    },
+    {
       "id": "profile-11",
       "name": "瀧 ひびき",
       "reading": "たき——",
@@ -154,6 +166,18 @@
       "summary": "ドギツい「シスコン」。名家分家の一人息子にして医学生。本家の嫌味ったらしいカスどもを呪っているが、本家次男（KPC)だけは大好き。表向きは恭しい態度を貫くが、二人のときは「おねえちゃん」と呼び甘え倒している。羽虫呼ばわりしてくる本家長男が大嫌い。俺にはおねえちゃんだけだ。",
       "scenario": "なゆた孕みしもの PC",
       "thumbnail": "assets/characters/67f01587105fc50c1241a0385b2684b84a0bf520a5183b06e14079ffdf8ce3b1.png",
+      "portrait": "",
+      "stats": {},
+      "skills": []
+    },
+    {
+      "id": "profile-15",
+      "name": "Elliot B. Ashcroft",
+      "reading": "エリオットB.アシュクロフト",
+      "system": "CoC",
+      "summary": "近代の資産家。BはBenedict。淡々としてるわりに、名誉欲、劣等感の塊みたいな男。徴兵を免れたことが逆にコンプレックス。美術に感動はしてないがわかったような顔をしとくぜ。妻を「美女」という生き物だと思ってる。",
+      "scenario": "墓穴に納まる HO2 たくましい夫",
+      "thumbnail": "assets/characters/758aff9ae66161ff38879456cd88f09901a211ce262ea91bf6f56e8f1a1ae391.png",
       "portrait": "",
       "stats": {},
       "skills": []
@@ -219,6 +243,18 @@
       "skills": []
     },
     {
+      "id": "profile-21",
+      "name": "砂川 類",
+      "reading": "すながわ るい",
+      "system": "CoC",
+      "summary": "病弱大学デビュー。縦大生（どこ？）。幼少期は病弱だった。明るく元気そうに見せて友達を作るぞ！という気持ちで脱色したら見た目がちょっといかつくなってしまったが気づいてない。見た目に反して居心地悪そうにオドオドしているが、つらっととんでもないことをする。",
+      "scenario": "ヤツユメウナギの夢",
+      "thumbnail": "assets/characters/098377a4c618d4d0fa7667da4a709a5aa31c73bff2a06c34d0d9f0ee64a1c05b.png",
+      "portrait": "",
+      "stats": {},
+      "skills": []
+    },
+    {
       "id": "profile-22",
       "name": "斎",
       "reading": "イツキ",
@@ -226,6 +262,18 @@
       "summary": "スカしてる大ドジ。電気ケトルをコンロで燃やす。変な煙が出た。くすくす笑いながらボールペンをノックしようとしてペン先を指に刺す。ドジをかなり人のせいにする。頭が半分なのは、シャツが半分だからだよー。",
       "scenario": "ようこそ！迷冥市役所都市伝説課へ！ HO1 都市伝説課の担当者",
       "thumbnail": "assets/characters/ff902326717824bc108df4cd7a78eb0460b27af9b1adfc43f07d4c82b1b843d1.png",
+      "portrait": "",
+      "stats": {},
+      "skills": []
+    },
+    {
+      "id": "profile-25",
+      "name": "家永 魅",
+      "reading": "いえなが かい",
+      "system": "CoC",
+      "summary": "深夜にネカフェで働いてるフリーター。単発バイトも探している。めんどくさがりのナルシスト。人生に起伏が全然なさそう。将来に対する展望が皆無。なんとかなると思っているが、なんとかする気はあんまりない。",
+      "scenario": "奇奇怪怪同好会",
+      "thumbnail": "assets/characters/eea9eb899f6128e0ccefb6c1fdc478b63385f6cd56a23c1fd13b893ea4006379.png",
       "portrait": "",
       "stats": {},
       "skills": []
